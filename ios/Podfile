@@ -7,8 +7,14 @@ target 'Project' do
 
   # Pods for Project
 
+  pod "Yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    # Add any other subspecs you want to use in your project
+  ]
+
   # Required by RNFirebase
-  pod 'Firebase/Core'
+  pod 'Firebase', '~> 4.0.0'
   pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
 
   # [OPTIONAL PODS] - comment out pods for firebase products you won't be using.

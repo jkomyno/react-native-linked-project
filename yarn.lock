@@ -53,6 +53,10 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+andlog@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/andlog/-/andlog-1.0.0.tgz#25b39047ac9c1e5f6b2c8e4cdb5e7bf9e65e534b"
+
 ansi-escapes@^1.1.0, ansi-escapes@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
@@ -893,6 +897,12 @@ boom@2.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
   dependencies:
     hoek "2.x.x"
+
+bows@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/bows/-/bows-1.6.0.tgz#0c7d65c9682ce8adedac50d709cc498c9628da05"
+  dependencies:
+    andlog "^1.0.0"
 
 bplist-creator@0.0.7:
   version "0.0.7"
@@ -3048,6 +3058,13 @@ react-native-fetch-blob@^0.10.5:
   dependencies:
     base-64 "0.1.0"
     glob "^7.0.6"
+
+react-native-firebase@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-firebase/-/react-native-firebase-2.0.0.tgz#f72beac2d9cbf606c973a0e8c111e7d79f6a8922"
+  dependencies:
+    bows "^1.6.0"
+    prop-types "^15.5.10"
 
 react-native-linear-gradient@^2.0.0:
   version "2.0.0"
