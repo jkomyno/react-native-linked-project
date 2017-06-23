@@ -13,6 +13,7 @@
 		"react-native-fetch-blob": "^0.10.5",
 		"react-native-firebase": "^2.0.0",
 		"react-native-linear-gradient": "^2.0.0",
+		"react-native-maps": "^0.15.2",
 		"react-native-svg": "5.1.8",
 		"react-native-vector-icons": "^4.2.0",
 		"react-redux": "^5.0.5",
