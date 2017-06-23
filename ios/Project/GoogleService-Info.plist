@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>321890545274-2pkq02vcu1niefm6n3fsmbcpkr44j88m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.321890545274-2pkq02vcu1niefm6n3fsmbcpkr44j88m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBdTx2EVj2aXNl0kngxaUHYym2MiUOREkc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>321890545274</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.skydreamer</string>
+	<key>PROJECT_ID</key>
+	<string>skydreamer-6cb0d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skydreamer-6cb0d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:321890545274:ios:ad3ec28afc29e28d</string>
+	<key>DATABASE_URL</key>
+	<string>https://skydreamer-6cb0d.firebaseio.com</string>
+</dict>
+</plist>
