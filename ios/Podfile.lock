@@ -1,24 +1,26 @@
 PODS:
-  - Firebase (4.0.2):
-    - Firebase/Core (= 4.0.2)
-  - Firebase/Analytics (4.0.2):
+  - BVLinearGradient (2.0.0):
+    - React
+  - Firebase (4.0.3):
+    - Firebase/Core (= 4.0.3)
+  - Firebase/Analytics (4.0.3):
     - Firebase/Core
-  - Firebase/Auth (4.0.2):
+  - Firebase/Auth (4.0.3):
     - Firebase/Core
     - FirebaseAuth (= 4.0.0)
-  - Firebase/Core (4.0.2):
-    - FirebaseAnalytics (= 4.0.1)
-    - FirebaseCore (= 4.0.2)
-  - Firebase/Crash (4.0.2):
+  - Firebase/Core (4.0.3):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.3)
+  - Firebase/Crash (4.0.3):
     - Firebase/Core
     - FirebaseCrash (= 2.0.0)
-  - Firebase/DynamicLinks (4.0.2):
+  - Firebase/DynamicLinks (4.0.3):
     - Firebase/Core
     - FirebaseDynamicLinks (= 2.0.0)
-  - Firebase/Messaging (4.0.2):
+  - Firebase/Messaging (4.0.3):
     - Firebase/Core
     - FirebaseMessaging (= 2.0.0)
-  - FirebaseAnalytics (4.0.1):
+  - FirebaseAnalytics (4.0.2):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
@@ -26,7 +28,7 @@ PODS:
     - FirebaseAnalytics (~> 4.0)
     - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseCore (4.0.2):
+  - FirebaseCore (4.0.3):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
   - FirebaseCrash (2.0.0):
     - FirebaseAnalytics (~> 4.0)
@@ -44,6 +46,11 @@ PODS:
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - Protobuf (~> 3.1)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
   - GoogleToolboxForMac/DebugUtils (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/Defines (2.1.1)
@@ -58,50 +65,110 @@ PODS:
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.10)
   - Protobuf (3.3.0)
+  - React (0.44.3):
+    - React/Core (= 0.44.3)
+  - react-native-google-maps (0.15.3):
+    - GoogleMaps (= 2.1.1)
+    - React
+  - react-native-maps (0.15.3):
+    - React
   - React/Core (0.44.3):
     - React/cxxreact
     - Yoga (= 0.44.3.React)
   - React/cxxreact (0.44.3):
     - React/jschelpers
   - React/jschelpers (0.44.3)
+  - React/RCTActionSheet (0.44.3):
+    - React/Core
+  - React/RCTAnimation (0.44.3):
+    - React/Core
+  - React/RCTGeolocation (0.44.3):
+    - React/Core
+  - React/RCTImage (0.44.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.44.3):
+    - React/Core
+  - React/RCTNetwork (0.44.3):
+    - React/Core
+  - React/RCTSettings (0.44.3):
+    - React/Core
+  - React/RCTText (0.44.3):
+    - React/Core
+  - React/RCTVibration (0.44.3):
+    - React/Core
+  - React/RCTWebSocket (0.44.3):
+    - React/Core
   - RNFirebase (2.0.0)
+  - RNVectorIcons (4.2.0):
+    - React
   - Yoga (0.44.3.React)
 
 DEPENDENCIES:
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - Firebase (~> 4.0.0)
   - Firebase/Analytics
   - Firebase/Auth
+  - Firebase/Core
   - Firebase/Crash
   - Firebase/DynamicLinks
   - Firebase/Messaging
+  - GoogleMaps
+  - React (from `../node_modules/react-native`)
+  - react-native-google-maps (from `../node_modules/react-native-maps`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
   - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNFirebase (from `../node_modules/react-native-firebase`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: ../node_modules/react-native-linear-gradient
   React:
     :path: ../node_modules/react-native
+  react-native-google-maps:
+    :path: ../node_modules/react-native-maps
+  react-native-maps:
+    :path: ../node_modules/react-native-maps
   RNFirebase:
     :path: ../node_modules/react-native-firebase
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons
   Yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
-  Firebase: c7ad0731eab26d18a3fc547dd048b0f7cd9c63ae
-  FirebaseAnalytics: 4d7040fefc3cd8b291cde35f12cf063d7963f15d
+  BVLinearGradient: 2141b67ea06d9b1077ca68c9d6f89fa38c5f8450
+  Firebase: 9e33fdfbca37cab635c693883caa90a4475b842b
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
   FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
-  FirebaseCore: 1a8bf6c795ad07d2918278657954ffd2552e9c17
+  FirebaseCore: c709067051de07bdaffdc4e735cd7299a23c463a
   FirebaseCrash: 600ec2cbd8e10c3064a42de2c6ee7687bd02a076
   FirebaseDynamicLinks: ad3bef2e8addfa1490af9db02201429c5c9447dd
   FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
   FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
   Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
   React: 6361345ebeb769a929e10a06baf0c868d6d03ad5
+  react-native-google-maps: f8780ca7802588d0ccd3a83c522a81f433bc1b4a
+  react-native-maps: 6a886202fb8af8568615501c0f9f933ca282a7a3
   RNFirebase: dcc4dcb1c9400a9bc01866e50d1351272a7df311
+  RNVectorIcons: 6d98d83e944d15014d8071dd9819beb094c61133
   Yoga: c90474ca3ec1edba44c97b6c381f03e222a9e287
 
-PODFILE CHECKSUM: 13243b5b37071dd69f8be98f871b34d0d6b32cd9
+PODFILE CHECKSUM: 341bde0ead2df5cb84d72d19addbac5e0c526594
 
 COCOAPODS: 1.2.1

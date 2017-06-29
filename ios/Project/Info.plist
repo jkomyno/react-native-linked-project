@@ -69,12 +69,12 @@
     <dict>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>fb{your-app-id}</string>
+        <string>fb251686075279620</string>
       </array>
     </dict>
   </array>
   <key>FacebookAppID</key>
-  <string>{your-app-id}</string>
+  <string>fb251686075279620</string>
   <key>FacebookDisplayName</key>
   <string>Skydreamer</string>
   <key>LSApplicationQueriesSchemes</key>

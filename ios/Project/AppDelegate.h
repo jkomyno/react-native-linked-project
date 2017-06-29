@@ -10,7 +10,11 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+// @interface AppDelegate : UIResponder <UIApplicationDelegate,UNUserNotificationCenterDelegate>
+
+// @import UserNotifications;
 
 @property (nonatomic, strong) UIWindow *window;
+
 
 @end

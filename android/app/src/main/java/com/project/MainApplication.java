@@ -1,9 +1,14 @@
 package com.project;
 
 import android.app.Application;
+import android.content.Intent;     // <--- import
+import android.os.Bundle;
 
 import com.facebook.react.ReactApplication;
+import com.facebook.FacebookSdk;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
+import com.facebook.CallbackManager;
+import com.facebook.appevents.AppEventsLogger;
 import com.cmcewen.blurview.BlurViewPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import com.horcrux.svg.SvgPackage;
@@ -38,7 +43,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new FBSDKPackage(),
+            new FBSDKPackage(mCallbackManager),
             new BlurViewPackage(),
             new RNFetchBlobPackage(),
             new MapsPackage(),
@@ -51,6 +56,12 @@ public class MainApplication extends Application implements ReactApplication {
   };
 
   @Override
+  public void onActivityResult(int requestCode, int resultCode, Intent data) {
+      super.onActivityResult(requestCode, resultCode, data);
+      MainApplication.getCallbackManager().onActivityResult(requestCode, resultCode, data);
+  }
+
+  @Override
   public ReactNativeHost getReactNativeHost() {
     return mReactNativeHost;
   }
@@ -59,6 +70,8 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     FacebookSdk.sdkInitialize(getApplicationContext());
+    // If you want to use AppEventsLogger to log events.
+    AppEventsLogger.activateApp(this);
     SoLoader.init(this, /* native exopackage */ false);
   }
 }
