@@ -12,6 +12,8 @@ import {
   View
 } from 'react-native';
 
+import Application from './src/Application';
+
 export default class Project extends Component {
   render() {
     return (
@@ -50,4 +52,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Project', () => Project);
+AppRegistry.registerComponent('Project', () => Application);
