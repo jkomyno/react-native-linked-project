@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "321890545274",
+    "firebase_url": "https://skydreamer-6cb0d.firebaseio.com",
+    "project_id": "skydreamer-6cb0d",
+    "storage_bucket": "skydreamer-6cb0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321890545274:android:ad3ec28afc29e28d",
+        "android_client_info": {
+          "package_name": "com.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321890545274-hcknjv2vsgb3qojr5fjpk6i3hk1kuv16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7K5qY6SPDAMoGcVN0URt-X1G9_DLvFy4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
