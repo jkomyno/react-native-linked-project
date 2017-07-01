@@ -56,12 +56,6 @@ public class MainApplication extends Application implements ReactApplication {
   };
 
   @Override
-  public void onActivityResult(int requestCode, int resultCode, Intent data) {
-      super.onActivityResult(requestCode, resultCode, data);
-      MainApplication.getCallbackManager().onActivityResult(requestCode, resultCode, data);
-  }
-
-  @Override
   public ReactNativeHost getReactNativeHost() {
     return mReactNativeHost;
   }
