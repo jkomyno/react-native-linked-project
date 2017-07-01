@@ -1,4 +1,4 @@
-package com.project;
+package com.skydreamer;
 
 import com.facebook.react.ReactActivity;
 import android.content.Intent;

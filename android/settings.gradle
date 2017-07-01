@@ -1,4 +1,4 @@
-rootProject.name = 'Project'
+rootProject.name = 'Skydreamer'
 include ':react-native-fbsdk'
 project(':react-native-fbsdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fbsdk/android')
 include ':react-native-blur'
