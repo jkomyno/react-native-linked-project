@@ -13,7 +13,7 @@ const { background } = Images.login;
 class LoginScreen extends React.Component {
 
     facebookLogin = () => {
-        console.warn('123');
+        // console.warn('123');
         this.props.startFacebookAuth((error) => {
             Debug.error(error); // TODO: Resolve authentication error properly.
         });
